@@ -1,11 +1,43 @@
+
+/*
+TROUBLESHOOTING
+*/
+* {
+    border: 1px solid red;
+}
+
 html {
     box-sizing: border-box;
-
-    /*
-    TROUBLESHOOTING
-    */
-    border: 1px solid red;
 }
 *, *::before, *::after {
     box-sizing: inherit;
 }
+
+
+/*
+UNIVERSAL CSS PROPERTIES
+*/
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+ul {
+    display: flex;
+    padding:0;
+    list-style: none;
+    gap: 10px;
+}
+
+/*
+HEADER CSS PROPERTIES
+*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
