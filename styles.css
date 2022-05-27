@@ -41,3 +41,11 @@ HEADER CSS PROPERTIES
     align-items: center;
 }
 
+
+/*
+SECTION 1 CSS PROPERTIES
+*/
+.section1 {
+    display: flex;
+    justify-content: space-between;
+}
