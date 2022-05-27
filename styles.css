@@ -49,3 +49,25 @@ SECTION 1 CSS PROPERTIES
     display: flex;
     justify-content: space-between;
 }
+
+/*
+SECTION 2 CSS PROPERTIES
+*/
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section2 span {
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img {
+    height:200px;
+}
