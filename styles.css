@@ -86,3 +86,11 @@ SECTION 3 CSS PROPERTIES
 .section3 span {
     align-self: center;
 }
+
+/*
+SECTION 4 CSS PROPERTIES
+*/
+.section4box {
+    display: flex;
+    justify-content: space-between;
+}
