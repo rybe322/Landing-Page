@@ -71,3 +71,18 @@ SECTION 2 CSS PROPERTIES
 .img {
     height:200px;
 }
+
+
+/*
+SECTION 3 CSS PROPERTIES
+*/
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.section3 span {
+    align-self: center;
+}
