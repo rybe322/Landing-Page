@@ -26,13 +26,21 @@ quote text
 36px light italic #1F2937
 */
 body {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     height: 100vh;
 }
-
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
 .header {
     background-color: gray;
+    display: flex;
+
 }
 
 .footer{
