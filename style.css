@@ -25,3 +25,16 @@ quote section background color
 quote text
 36px light italic #1F2937
 */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    background-color: gray;
+}
+
+.footer{
+    margin-top: auto;
+}
