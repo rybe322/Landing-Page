@@ -28,6 +28,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    
 }
 li {
     list-style-type: none;
@@ -46,6 +47,22 @@ ul {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    flex-shrink: 0;
+}
+.right ul{
+    display:flex;
+    gap:20px;
+}
+.right li{
+    flex-shrink: 0;
+}
+.header .right li {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 
