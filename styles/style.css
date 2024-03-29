@@ -30,19 +30,8 @@ body {
     height: 100vh;
     
 }
-li {
-    list-style-type: none;
-}
-a {
-    text-decoration: none;
-}
-a, ul, li {
-    margin: 0;
-    padding: 0;
-}
-ul {
-    display: flex;
-}
+
+/* START HEADER*/
 .header {
     background-color: #1F2937;
     display: flex;
@@ -64,6 +53,32 @@ ul {
     font-size: 18px;
     color: #E5E7EB;
 }
+/* END HEADER */
+
+/* START HERO */
+.hero {
+    display: flex;
+    background-color: #1F2937;
+
+}
+.hero .right, .hero .left{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.button-container{
+    display: flex;
+}
+
+
+
+/* END HERO */
+
+
+
+
 
 
 .footer{
