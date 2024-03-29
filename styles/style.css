@@ -62,14 +62,27 @@ body {
 
 }
 .hero .right, .hero .left{
-    border: 1px solid white;
     display: flex;
     flex-direction: column;
-    flex: 1;
+    flex: 1 0 0;
 }
 
-.button-container{
+.hero .left .hero-header {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+
+}
+.hero .left .text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.button-container button{
     display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
 }
 
 
