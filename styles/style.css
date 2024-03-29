@@ -114,15 +114,16 @@ body {
 }
 
 
-.information .wrapper {
+.information .info-wrapper {
     display: flex;
 
 }
-.item {
+.info-wrapper-item {
     height: 50px;
     width: 50px;
     background-color: black;
     border: 1px solid white;
+    flex:1;
 }
     
 
