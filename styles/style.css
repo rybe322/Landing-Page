@@ -103,6 +103,7 @@ body {
 
 /* START INFO */
 .information {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -110,20 +111,26 @@ body {
 
 .information .info-header {
     font-size: x-large;
+    border: 5px solid green;
 
 }
 
 
 .information .info-wrapper {
     display: flex;
-
+    align-items: center;
+    justify-content: center;
+    
 }
 .info-wrapper-item {
-    height: 50px;
-    width: 50px;
+    flex: 0 1 50px;
     background-color: black;
-    border: 1px solid white;
-    flex:1;
+    border: 3px solid green;
+
+}
+
+.info-wrapper-item-text {
+    color: white;
 }
     
 
