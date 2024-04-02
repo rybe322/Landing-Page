@@ -34,7 +34,10 @@ body {
     flex-direction: column;
 
 }
+.header, .hero {
+    padding: 2rem 10rem 4rem 10rem;
 
+}
 /* START HEADER*/
 .header {
     background-color: #1F2937;
@@ -63,19 +66,31 @@ body {
 .hero {
     display: flex;
     background-color: #1F2937;
+    gap: 4rem;
+
 
 }
-.hero .right, .hero .left{
+
+.hero .left {
     display: flex;
+    flex: 1;
     flex-direction: column;
-    flex: 1 0 0;
+    gap: 1rem;
+}
+.hero .right{
+    background-color: gray;
+    display: flex;
+    flex: 1;
+}
+
+.hero .left {
+    flex:1;
 }
 
 .hero .left .hero-header {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
-
 }
 .hero .left .text {
     font-size: 18px;
