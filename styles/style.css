@@ -102,36 +102,34 @@ body {
 /* END HERO */
 
 /* START INFO */
-.information {
+#information-wrapper {
     
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.information .info-header {
+#information-wrapper .info-header {
     font-size: x-large;
     border: 5px solid green;
 
 }
 
-
-.information .info-wrapper {
+#information-wrapper .el-wrapper{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-.info-wrapper-item {
-    flex: 0 1 50px;
-    background-color: black;
-    border: 3px solid green;
-
+    flex-direction: column;
+    height: 200px;
+    width: 100px;
+    border: 1px solid black;
 }
 
-.info-wrapper-item-text {
-    color: white;
+#information-wrapper .box {
+    height: 100px;
+    width: 100px;
+    border: 1px dotted black;
 }
+
+
     
 
 /* END INFO */
