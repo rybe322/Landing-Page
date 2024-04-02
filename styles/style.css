@@ -28,7 +28,6 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    width: 100vw;
     
 }
 
@@ -110,26 +109,31 @@ body {
 }
 
 #information-wrapper .info-header {
-    border: 5px solid green;
     font-size: 48px;
     font-weight: 900;
     color: #1F2937;
 
 }
 
+#information-wrapper .elements-wrapper {
+    display: flex;
+    gap: 40px;
+}
+
 #information-wrapper .el-wrapper{
     display: flex;
     flex-direction: column;
-    max-width: 150px;
-    border: 5px solid #3882F6;
+    width: 150px;
 }
 
 #information-wrapper .box {
-    height:150px;
-    border: 5px dotted black;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
 }
 
 #information-wrapper .text {
+    margin-top: 10px;
     text-align: center;
 }
 
