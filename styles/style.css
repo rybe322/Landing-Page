@@ -110,23 +110,27 @@ body {
 }
 
 #information-wrapper .info-header {
-    font-size: x-large;
     border: 5px solid green;
+    font-size: 48px;
+    font-weight: 900;
+    color: #1F2937;
 
 }
 
 #information-wrapper .el-wrapper{
     display: flex;
     flex-direction: column;
-    height: 200px;
-    width: 100px;
-    border: 1px solid black;
+    max-width: 150px;
+    border: 5px solid #3882F6;
 }
 
 #information-wrapper .box {
-    height: 100px;
-    width: 100px;
-    border: 1px dotted black;
+    height:150px;
+    border: 5px dotted black;
+}
+
+#information-wrapper .text {
+    text-align: center;
 }
 
 
