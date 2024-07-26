@@ -156,15 +156,37 @@ body {
     text-align: center;
 }
 
-
-    
-
 /* END INFO */
 
+/* QUOTE START */
+.quote-wrapper {
+    border:1px solid black;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*
+36px light italic #1F2937
+*/
+.quote-wrapper .text {
+    width: 80rem;
+    font: 36px light italic;
+    color: #1F2937;
+
+}
+.quote-wrapper .author {
+    font: 25px bold;
+    color: #1F2937;
+}
+/* QUOTE END */
 
 
+/* ACTION START */
 
-
+/* ACTION END */
+/* FOOTER START */
 .footer{
     margin-top: auto;
 }
+/* FOOTER END */
